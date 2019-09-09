@@ -1,0 +1,137 @@
+body {
+    background-image: url(t.jpg);
+    color:white ;
+    font-family: Arial, Helvetica, sans-serif;
+    background-attachment: fixed;
+}
+
+
+a {
+    text-decoration: none ;
+    
+}
+/* start hover */
+
+a:hover {
+    color:chocolate;
+    
+}
+/* end hover */
+
+/* star visited */
+a:visited {
+    color: red;
+}
+
+/* end visited */
+
+/* strart container */
+.container {
+    width: 90%;
+    overflow: auto;
+    margin: 20px auto;
+    color: red;
+    text-decoration-color: blue
+/* end container */
+}
+
+/* debug aid:begain */
+
+    
+/* debug aid:end */
+
+
+
+
+/* start menu primer */
+
+.menu-primer ul {
+    background-color: blue;
+    border-radius: 20px;
+    background-origin: 40px 50px;
+    text-align: center;
+    font-size: 30px 40px;
+    padding: 40px;
+    
+}
+.menu-primer a:hover{
+    background-color: rebeccapurple;
+}
+
+.menu-primer li {
+    border-right: 1px solid #74aa1f;
+    display:inline-block;
+    font-size: 30px 40px;
+
+}
+
+.menu-primer a {
+    color: #74aa1f;
+    font-size: 20px;
+    padding: 30px 40px;
+    text-transform: uppercase;
+    
+}
+
+
+/* end menu primer */
+
+.jumbotron {
+    background-color:yellow;
+    border: solid 10px;
+    border-radius: 20px;
+    
+    }
+.jumbotron h1{
+    text-align: center;
+}
+.copyright h5 {
+    margin: 14px #74aa1f;
+    font-size: 20px #7777;
+    
+}
+
+.box-judul1{
+    float: left;
+    width: 50%;
+    background-color: #74aa1f;
+}
+
+.box-heading {
+    border:solid;
+    background-color: red;
+    
+    
+}
+
+/*start menu skunder*/
+.menu-skunder {
+    background-color: black;
+    border-bottom:1px solid #74aa1f;
+    border-top: 1px chartreuse;
+    overflow:auto;
+    padding: 1px 0;
+}
+
+.menu-skunder h3 {
+    font-size: 14px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+
+.menu-skunder ul {
+    padding: 0;
+}
+
+.menu-skunder li {
+    list-style: disc;
+    text-align: center;
+}
+
+/*end menu skunder*/
+
+
+
+
+
+
